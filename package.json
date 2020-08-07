@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WeHaveJoy/bootcamp-terminal-tests/issues"
   },
-  "homepage": "https://github.com/WeHaveJoy/bootcamp-terminal-tests#readme"
+  "homepage": "https://github.com/WeHaveJoy/bootcamp-terminal-tests#readme",
+  "dependencies": {
+    "mocha": "^8.1.1"
+  }
 }
