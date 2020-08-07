@@ -1,7 +1,7 @@
 let assert = require ("assert");
 let greet = require ("../greet");
 
-var greet = require('../greet');
+//var greet = require('../greet');
 
 describe('The greet function', function(){
     it ('should greet Sinovuyo', function(){
