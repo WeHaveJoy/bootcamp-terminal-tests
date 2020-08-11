@@ -24,7 +24,4 @@ describe("The find items over 20 function ", function(){
         assert.deepEqual(results, findItemsOver20(itemList));
     });
   
-    
-  
-    
 });
