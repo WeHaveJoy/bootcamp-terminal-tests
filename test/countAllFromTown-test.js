@@ -6,13 +6,13 @@ let countAllFromTown = require ("../countAllFromTown");
 describe("The countAllFromTown function ", function() {
  
     
-    it("should return 1 registration from Town", function() {
+    it("should return 1 registration number from Town", function() {
       var EXPECTED_COUNT = 1;
       
       assert.equal(EXPECTED_COUNT, countAllFromTown("CA 123-123"));
     });
     
-    it("should return 2 registrations from Town ", function() {
+    it("should return 2 registration numbers from Town ", function() {
       var EXPECTED_COUNT = 2;
       
       

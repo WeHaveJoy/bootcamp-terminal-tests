@@ -1,9 +1,11 @@
-module.exports = function isWeekday(weekDay){
-    if(weekDay.startsWith('Monday') || weekDay.startsWith('Tuesday') || weekDay.startsWith('Wednesday') || weekDay.startsWith('Thursday') || weekDay.startsWith('Friday')){
-    return weekDay;
+module.exports =  function isWeekday(day){
+    if (day.startsWith("S")) {
+        return "is not a weekday";
     }
      else {
-     return "is not a weekday";
-     } 
-    
+        return "week day!"
+     }
     }
+      
+    
+    
